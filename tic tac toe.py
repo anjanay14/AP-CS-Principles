@@ -7,7 +7,7 @@ def tic_tac_toe():
         print(board[0], board[1], board[2])
         print(board[3], board[4], board[5])
         print(board[6], board[7], board[8])
-        print()
+        print()         
 
     def p1():
         n = choose_number()
@@ -22,9 +22,9 @@ def tic_tac_toe():
         if board[n] == "X" or board[n] == "O":
             print("You can't go there! Try again")
             p2()
+
         else:
             board[n] = "O"
-
     def choose_number():
         while True:
             while True:
